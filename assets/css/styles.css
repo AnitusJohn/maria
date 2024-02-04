@@ -352,7 +352,7 @@ svg{
 }
 
 .part_sec{
-  padding: 60px 0;
+  padding: 90px 0;
 
 }
 .part_sec_each svg{
@@ -425,4 +425,42 @@ margin-bottom: 40px;
 .trng_sec p{
   color: #fff;
   text-align: center;
+}
+.pnk_clr_sec{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.pnk_clr_sec h2{
+font-size: 25px;
+margin: 20px 0;
+color: #b84f86;
+}
+.pnk_clr_sec p{
+  color: #000;
+text-align: justify;
+
+}
+.pnk_clr_sec a{
+
+  padding: 10px;
+  background: #b84f86;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  border-radius: 19px;
+  text-decoration: none;
+  border:1px solid #b84f86;
+}
+.pnk_clr_sec img{
+  border-radius: 10px;
+  /* width: 316px; */
+  height: 200px;
+}
+.pnk_clr_sec a:hover{
+color: #b84f86;
+background-color: #fff;
 }
