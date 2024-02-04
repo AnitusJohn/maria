@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="./assets/css/slider.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/accordion.css">
+    <title>Maria Montessori Teacher Training</title>
+    <link rel="stylesheet" href="./assets/css/animation.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+
+                    <img style="height: 40px;" src="./assets/images/maria_logo.png" alt="">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="./index.html" class="nav__link">Home</a></li>
+
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            About Us <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-pie-chart-line"></i> Who we are?
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i> Who may do?
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i> What we do?
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i> Governing Council
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i> Gallery
+                                </a>
+                            </li>
+
+
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <!-- <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> Documents
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-cash-line"></i> Payments
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-refund-2-line"></i> Refunds
+                                 </a>
+                              </li>
+                           </ul>
+                        </li> -->
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="nav__link">Affiliated by</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Courses <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-pie-chart-line"></i> Certificate Courses
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i> Diploma Courses
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i> Advanced Diploma Courses
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i>Qualifications
+                                </a>
+                            </li>
+
+
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <!-- <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                          </div>
+
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i> Documents
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-cash-line"></i> Payments
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i> Refunds
+                                </a>
+                             </li>
+                          </ul>
+                       </li> -->
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="nav__link">Admission</a></li>
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Verification <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-lock-line"></i> Apply for Verification
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="carouselExampleCaptions" class="carousel slide  pd-tp" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/banner.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Education for Life</h1>
+                    <p>Childhood Learning exists to encourage and promote education in every way, in particular the life
+                        of children in…</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/banner.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Successful career starts here</h1>
+                    <p>MMTT brings internationally recognized and accredited premium teaching courses for aspiring as
+                        well as active teachers planning to…</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/banner.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>We learn by doing them</h1>
+                    <p>Our focus is on practical work and experience that leads the young to maturity</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <section class="part_sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="part_sec_each text-center">
+                        <a href="./we_are.html">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M373.5 27.1C388.5 9.9 410.2 0 433 0c43.6 0 79 35.4 79 79c0 22.8-9.9 44.6-27.1 59.6L277.7 319l-10.3-10.3-64-64L193 234.3 373.5 27.1zM170.3 256.9l10.4 10.4 64 64 10.4 10.4-19.2 83.4c-3.9 17.1-16.9 30.7-33.8 35.4L24.4 510.3l95.4-95.4c2.6 .7 5.4 1.1 8.3 1.1c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32c0 2.9 .4 5.6 1.1 8.3L1.7 487.6 51.5 310c4.7-16.9 18.3-29.9 35.4-33.8l83.4-19.2z" />
+                            </svg>
+                            <h2>Who we are?</h2>
+                            <p>Welcome to the Maria Montessori Teacher Training (MMTT). We are primarily a Teacher
+                                Training and Research Institute for…</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="part_sec_each text-center">
+                        <a href="">
+                            <svg class="flipchar" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0z" />
+                            </svg>
+                            <h2>Who may do?</h2>
+                            <p>Students wishing to start their own Montessori School: The course includes a lesson on
+                                setting up a Montessori classroom…</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="part_sec_each text-center">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M384 312.7c-55.1 136.7-187.1 54-187.1 54-40.5 81.8-107.4 134.4-184.6 134.7-16.1 0-16.6-24.4 0-24.4 64.4-.3 120.5-42.7 157.2-110.1-41.1 15.9-118.6 27.9-161.6-82.2 109-44.9 159.1 11.2 178.3 45.5 9.9-24.4 17-50.9 21.6-79.7 0 0-139.7 21.9-149.5-98.1 119.1-47.9 152.6 76.7 152.6 76.7 1.6-16.7 3.3-52.6 3.3-53.4 0 0-106.3-73.7-38.1-165.2 124.6 43 61.4 162.4 61.4 162.4 .5 1.6 .5 23.8 0 33.4 0 0 45.2-89 136.4-57.5-4.2 134-141.9 106.4-141.9 106.4-4.4 27.4-11.2 53.4-20 77.5 0 0 83-91.8 172-20z" />
+                            </svg>
+                            <h2>What we do?</h2>
+                            <p>We provide a number of high-quality teacher training courses for those seeking to become
+                                qualified teachers in the…</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="part_sec">
+        <!-- accordion -->
+        <!-- partial:index.partial.html -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="misn_sec">
+                        <h1>YOUR SUCCESS IS OUR MISSION</h1>
+                        <p>Our Focus is on the concepts of Montessori principles, such as the Absorbent Mind’, Sensitive
+                            Periods’ and the ‘Human Tendencies’, which are the subconscious powers, which guide the
+                            child in his self-construction.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row">
+
+                <div class="col-md-8">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Our Vision and Mission
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>“Don't just teach your kids to read, teach them to question what they read. Teach
+                                        them to question everything.” - George Carlin
+
+                                        The mission of all our Educational Programs is to improve the lives of children,
+                                        parents, and staff by providing safe, fun, curriculum-focused early education in
+                                        a collaborative and child-focused environment.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Our Values
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li> Ensuring the unwavering safety and security of children at all times</li>
+                                        <li>Maintaining the highest personal and corporate ethics and integrity through
+                                            honesty and fair dealings</li>
+                                        <li>
+                                            Being collaborative and respectful in all of our interactions
+                                        </li>
+                                        <li>
+                                            Serving all of our constituents to the best of our ability
+                                        </li>
+                                        <li>
+                                            Focusing on the long-term interests of everyone we serve and the communities
+                                            we live and work in
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accreditation
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Recognised and Accredited by the American International Accreditation
+                                        Organization (AIAO)-USA,
+                                        Recognised by the Association for Early Childhood Education & Development
+                                        (AECED),
+                                        Recognised by All India Council of Education (AICE),
+                                        Recognised by All India Association for Educational Research (AIAER),
+                                        Recognised by the Indian Society for Training & Development (ISTD) and by PNMA –
+                                        USA.
+                                        An ISO 9001:2015 certified Montessori Teacher Training
+                                        Recognised and Certified by National Human Rights Commission, India ( Human
+                                        Rights Pledge)
+                                        Recognised and Certified by Ministry of Skill Development And Entrepreneurship ,
+                                        India (Entrepreneurship Pledge)
+                                        Recognised and Certified by Central Vigilance Commission, India (Integrity
+                                        Pledge)
+                                        Recognised and Certified by National Commission for Women, India (Pledge for
+                                        Women Rights)
+                                        Recognised and Certified by Ministry of Health and Family Welfare (TB Free India
+                                        Pledge)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <img style="border-radius: 10px;" src="./assets/images/mmt.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="part_sec bg_clr trng_sec">
+    <div class="container">
+        <div class="row">
+            <h1>Training Courses</h1>
+            <p>The training courses offered at the MMTT are all internationally certified by the IAO ACCREDITATION. All perspective applicants must meet the entrance before being enrolled on a course. Our courses include:</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="pnk_clr_sec">
+                    <img src="" alt="">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit mollitia voluptatibus consectetur? Perferendis
+        minima consequuntur veniam iste cum aperiam sit, autem commodi eos voluptas velit, saepe corrupti, ducimus
+        tenetur eaque!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ex odio incidunt. Facilis velit consequatur impedit
+        molestias nulla, libero porro earum? Tenetur, doloremque eligendi. Nostrum quam laborum officia omnis labore
+        autem, officiis molestias atque aliquam nobis quo expedita tempore ab unde? Architecto consectetur voluptatum
+        neque molestias obcaecati nobis eum dolorem reiciendis minima voluptatem nisi, non error quos nesciunt
+        consequuntur aperiam perferendis sint, maxime temporibus dicta! Aperiam asperiores porro magni veniam.
+    </section>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/accordion.js"></script>
+
+</body>
+
+</html>
