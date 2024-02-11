@@ -77,7 +77,9 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--black-color);
+  /* background-color: #b84f86; */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(184,79,134,0.8744091386554622) 100%);
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
   z-index: var(--z-fixed);
 }
@@ -118,6 +120,7 @@ a {
   position: relative;
   width: 32px;
   height: 32px;
+  right: -30%;
 }
 
 .nav__burger, 
@@ -153,14 +156,28 @@ a {
     width: 0;
   }
   .nav__list {
-    background-color: var(--black-color);
-    padding-top: 1rem;
+    background-color: var(--white-color);
+    padding: 0;
   }
 }
+footer a{
+  text-decoration: none !important;
+  color: #b84f86;
+  font-weight: 700;
+}
 
+footer p{
+background-color: #b84f86;
+padding: 20px;
+color: #fff;
+}
+footer p a{
+  color: #000;
+}
 .nav__link {
-  color: var(--white-color);
-  background-color: var(--black-color);
+  /* color: var(--white-color); */
+  color: #000;
+  /* background-color: #b84f86; */
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;
   display: flex;
@@ -171,7 +188,7 @@ a {
 }
 
 .nav__link:hover {
-  background-color: var(--black-color-light);
+  background-color: #b84f86;
 }
 
 /* Show menu */
@@ -310,7 +327,7 @@ a {
     opacity: 0;
     pointer-events: none;
     transition: opacity .3s, top .3s;
-    width: 220px;
+    width: 300px;
   }
 
   .dropdown__link, 
@@ -331,7 +348,7 @@ a {
   /* Show dropdown menu */
   .dropdown__item:hover .dropdown__menu {
     opacity: 1;
-    top: 5.5rem;
+    top: 57px;
     pointer-events: initial;
     transition: top .3s;
   }
@@ -344,8 +361,11 @@ a {
     transition: top .3s;
   }
 }
-.pd-tp{
-  padding-top: 80px;
+@media screen and (min-width:1400px) {
+  
+  .pd-tp{
+    padding-top: 80px !important;
+  }
 }
 svg{
   width: 100%;
@@ -464,3 +484,36 @@ text-align: justify;
 color: #b84f86;
 background-color: #fff;
 }
+
+footer{
+  padding: 60px 0 0 0;
+  border-top: 5px solid #b84f86;
+}
+.gover_each_sec{
+  padding: 20px;
+  background: #b84f86;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.gover_each_sec span{
+  color: #fff;
+  width: 100%;
+  font-size: 19px;
+  font-weight: 600;
+  display: block;
+}
+.gover_each_sec img{
+  border-radius: 10px;
+}
+.gover_each_sec div{
+  padding: 30px 0;
+}
+.counsel h4{
+  margin: 20px 0 50px;
+}
+ @media screen and  (min-width: 360px)  {
+  .pd-tp{
+    padding-top: 10px !important;
+  }
+  
+ }
